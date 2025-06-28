@@ -1,6 +1,6 @@
 # FUTURE_CS_01
 
-# 🔐 Internship Report - Web Application Security Testing
+# 🔐 Report - Web Application Security Testing
 
 ## 🧪 Application: OWASP Juice Shop
 - Set up using Docker on Ubuntu VM
