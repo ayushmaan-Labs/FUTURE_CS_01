@@ -27,4 +27,4 @@
 - Ubuntu 22.04
 
 ## Screenshots
-*(Will add them later)*
+![Image](https://github.com/user-attachments/assets/7bc2ac48-458b-47b0-ae3a-6539d71c1b46)
