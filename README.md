@@ -27,4 +27,4 @@
 - Ubuntu 22.04
 
 ## Screenshots
-*(You can add them later after pushing to GitHub)*
+*(Will add them later)*
