@@ -32,7 +32,7 @@ Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sani
 - **Type**: Reflected XSS
 - **Severity**: High
 
-##Screenshot
+## Screenshot
 
 ![Image](https://github.com/user-attachments/assets/a4b1b4bb-0d49-423f-ba59-f69adef3ad44)
 
@@ -64,6 +64,9 @@ Disable access to non-public routes using proper role-based access control. Avoi
 - **Impact**: Indicates insecure authentication logic
 - **Severity**: High
 - **Status**: Triggered automatically after SQLi exploit
+  
+## Screenshot
+![Image](https://github.com/user-attachments/assets/8003c045-4423-472b-8087-c2d57945b5d7)
 
 ### 🛠️ Mitigation
 Harden authentication logic and avoid exposing insecure challenge logic. Validate credentials server-side and use secure session handling.
@@ -78,13 +81,6 @@ Harden authentication logic and avoid exposing insecure challenge logic. Validat
 - Strengthened Linux command-line and Docker skills
 
 ---
-
-## 🛠️ Troubleshooting Notes
-
-- **Docker Port Error**: Resolved `port already allocated` by stopping existing containers:
-  ```bash
-  sudo docker ps
-  sudo docker stop <container_id>
 
 ## 🧩 OWASP Top 10 Mapping
 
