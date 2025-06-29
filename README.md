@@ -36,8 +36,6 @@ Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sani
 
 ![Image](https://github.com/user-attachments/assets/a4b1b4bb-0d49-423f-ba59-f69adef3ad44)
 
-8d9e-7cd9a7aa08fa)
-
 ### 🛠️ Mitigation
 Sanitize and encode user inputs before reflecting them into the DOM. Use frameworks or libraries that auto-handle XSS (e.g., React, Angular).
 
