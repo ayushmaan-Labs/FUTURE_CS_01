@@ -16,7 +16,7 @@ This report summarizes the findings from a web application penetration test of O
 - **Impact**: Full authentication bypass
 - **Severity**: Critical
 
-## Screenshots
+## Screenshot
 ![Image](https://github.com/user-attachments/assets/7bc2ac48-458b-47b0-ae3a-6539d71c1b46)
 
 ### 🛠️ Mitigation
@@ -29,6 +29,12 @@ Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sani
 - **Result**: JavaScript executed
 - **Type**: Reflected XSS
 - **Severity**: High
+
+##Screenshot
+
+![Image](https://github.com/user-attachments/assets/a4b1b4bb-0d49-423f-ba59-f69adef3ad44)
+
+8d9e-7cd9a7aa08fa)
 
 ### 🛠️ Mitigation
 Sanitize and encode user inputs before reflecting them into the DOM. Use frameworks or libraries that auto-handle XSS (e.g., React, Angular).
@@ -47,7 +53,7 @@ Sanitize and encode user inputs before reflecting them into the DOM. Use framewo
 - **Severity**: Low
 - **Notes**: This confirms presence of hidden functionality that may guide attackers to targets.
 
-## Screenshots
+## Screenshot
 ![Image](https://github.com/user-attachments/assets/d9ea1812-c717-4050-8d9e-7cd9a7aa08fa)
 
 ### 🛠️ Mitigation
