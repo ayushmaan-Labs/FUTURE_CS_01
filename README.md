@@ -41,11 +41,6 @@ Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sani
 ### 🛠️ Mitigation
 Sanitize and encode user inputs before reflecting them into the DOM. Use frameworks or libraries that auto-handle XSS (e.g., React, Angular).
 
-## Tools Used
-- Docker
-- Firefox (manual testing)
-- Ubuntu 22.04
-
 ## ✅ Vulnerability 3: Hidden Functionality Exposure (Score Board)
 
 - **Location**: `/#/score-board`
