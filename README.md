@@ -16,6 +16,9 @@ This report summarizes the findings from a web application penetration test of O
 - **Impact**: Full authentication bypass
 - **Severity**: Critical
 
+### 🛠️ Mitigation
+Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sanitize all input fields and apply strict input validation.
+
 ## ✅ Vulnerability 2: Cross-Site Scripting (XSS)
 
 - **Location**: Search bar
@@ -23,6 +26,9 @@ This report summarizes the findings from a web application penetration test of O
 - **Result**: JavaScript executed
 - **Type**: Reflected XSS
 - **Severity**: High
+
+### 🛠️ Mitigation
+Sanitize and encode user inputs before reflecting them into the DOM. Use frameworks or libraries that auto-handle XSS (e.g., React, Angular).
 
 ## Tools Used
 - Docker
@@ -44,6 +50,8 @@ This report summarizes the findings from a web application penetration test of O
 ## Screenshots
 ![Image](https://github.com/user-attachments/assets/d9ea1812-c717-4050-8d9e-7cd9a7aa08fa)
 
+### 🛠️ Mitigation
+Disable access to non-public routes using proper role-based access control. Avoid exposing internal paths or debug pages in production.
 
 ---
 
@@ -53,6 +61,9 @@ This report summarizes the findings from a web application penetration test of O
 - **Impact**: Indicates insecure authentication logic
 - **Severity**: High
 - **Status**: Triggered automatically after SQLi exploit
+
+### 🛠️ Mitigation
+Harden authentication logic and avoid exposing insecure challenge logic. Validate credentials server-side and use secure session handling.
 
 ---
 
