@@ -1,4 +1,7 @@
 # FUTURE_CS_01
+## 📄 Executive Summary
+
+This report summarizes the findings from a web application penetration test of OWASP Juice Shop. The test identified critical vulnerabilities such as SQL Injection and Reflected XSS using manual testing techniques. The vulnerabilities were verified, documented, and mapped to the OWASP Top 10. Recommended mitigations are provided to enhance the security posture of the application.
 
 # 🔐 Report - Web Application Security Testing
 
@@ -68,4 +71,14 @@
   ```bash
   sudo docker ps
   sudo docker stop <container_id>
+
+## 🧩 OWASP Top 10 Mapping
+
+| Vulnerability | OWASP Category |
+|---------------|----------------|
+| SQL Injection | A03:2021 - Injection |
+| XSS           | A07:2021 - Cross-Site Scripting |
+| Hidden Routes | A05:2021 - Security Misconfiguration |
+| Insecure Auth | A01:2021 - Broken Access Control |
+
 
