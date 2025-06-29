@@ -25,8 +25,9 @@ Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sani
 ## ✅ Vulnerability 2: Cross-Site Scripting (XSS)
 
 - **Location**: Search bar
-- **Payload Used**: `<script>alert(1)</script>`
-- **Result**: JavaScript executed
+- **Payload Used**: <iframe src="javascript:alert('xss')">
+- **Result**: Payload executed immediately upon search
+-**Impact**: Could allow malicious actors to craft harmful URLs and steal session data
 - **Type**: Reflected XSS
 - **Severity**: High
 
