@@ -16,8 +16,9 @@ This report summarizes the findings from a web application penetration test of O
 - **Impact**: Full authentication bypass
 - **Severity**: Critical
 
-## Screenshot
-![Image](https://github.com/user-attachments/assets/7bc2ac48-458b-47b0-ae3a-6539d71c1b46)
+## Screenshots
+![Image](https://github.com/user-attachments/assets/02a9e058-e391-4628-a61c-0e36bc09341d)
+
 
 ### 🛠️ Mitigation
 Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sanitize all input fields and apply strict input validation.
