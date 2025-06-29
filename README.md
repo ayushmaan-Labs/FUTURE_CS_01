@@ -18,7 +18,7 @@ This report summarizes the findings from a web application penetration test of O
 
 ## Screenshots
 ![Image](https://github.com/user-attachments/assets/02a9e058-e391-4628-a61c-0e36bc09341d)
-
+![Image](https://github.com/user-attachments/assets/287b7f59-dd69-4582-bbec-e3a361bd2d06)
 
 ### 🛠️ Mitigation
 Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sanitize all input fields and apply strict input validation.
