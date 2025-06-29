@@ -28,6 +28,7 @@ Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sani
 - **Location**: Search bar
 - **Payload Used**: <iframe src="javascript:alert('xss')">
 - **Result**: Payload executed immediately upon search
+
 -**Impact**: Could allow malicious actors to craft harmful URLs and steal session data
 - **Type**: Reflected XSS
 - **Severity**: High
