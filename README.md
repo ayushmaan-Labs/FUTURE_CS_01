@@ -16,6 +16,9 @@ This report summarizes the findings from a web application penetration test of O
 - **Impact**: Full authentication bypass
 - **Severity**: Critical
 
+## Screenshots
+![Image](https://github.com/user-attachments/assets/7bc2ac48-458b-47b0-ae3a-6539d71c1b46)
+
 ### 🛠️ Mitigation
 Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sanitize all input fields and apply strict input validation.
 
@@ -34,9 +37,6 @@ Sanitize and encode user inputs before reflecting them into the DOM. Use framewo
 - Docker
 - Firefox (manual testing)
 - Ubuntu 22.04
-
-## Screenshots
-![Image](https://github.com/user-attachments/assets/7bc2ac48-458b-47b0-ae3a-6539d71c1b46)
 
 ## ✅ Vulnerability 3: Hidden Functionality Exposure (Score Board)
 
