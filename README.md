@@ -39,6 +39,7 @@
 - **Notes**: This confirms presence of hidden functionality that may guide attackers to targets.
 
 ## Screenshots
+![Image](https://github.com/user-attachments/assets/d9ea1812-c717-4050-8d9e-7cd9a7aa08fa)
 
 
 ---
