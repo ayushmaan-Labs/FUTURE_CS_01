@@ -23,15 +23,14 @@ This report summarizes the findings from a web application penetration test of O
 ### 🛠️ Mitigation
 Use parameterized queries (prepared statements) to avoid injecting raw SQL. Sanitize all input fields and apply strict input validation.
 
-## ✅ Vulnerability 2: Cross-Site Scripting (XSS)
+## ✅ Vulnerability 2: Reflected Cross-Site Scripting (XSS)
 
-- **Location**: Search bar
-- **Payload Used**: <iframe src="javascript:alert('xss')">
-- **Result**: Payload executed immediately upon search
-
--**Impact**: Could allow malicious actors to craft harmful URLs and steal session data
-- **Type**: Reflected XSS
-- **Severity**: High
+- **Location**: Search bar  
+- **Payload Used**: `<iframe src="javascript:alert('xss')">`  
+- **Result**: Payload executed immediately upon search  
+- **Impact**: Could allow malicious actors to steal session cookies or perform actions on behalf of the user  
+- **Type**: Reflected XSS  
+- **Severity**: High 
 
 ## Screenshot
 
